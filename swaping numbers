@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+int x,y,temp;
+printf("enter x:");
+scanf("%d",&x);
+printf("enter y:");
+scanf("%d",&y);
+temp = x;
+x = y;
+y = temp;
+printf("After Swapping\n x = %d\n y = %d\n", x, y);
+}
